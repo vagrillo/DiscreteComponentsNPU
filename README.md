@@ -15,7 +15,7 @@ Floating-point multiplication is a fundamental operation in many computational t
 #### 2. Circuit Design Overview
 The proposed circuit consists of the following key stages:
 1. **Digital-to-Analog Conversion (DAC):** Converts the digital floating-point inputs \( A_i \) and \( B_i \) into analog voltage signals (0-1V range).
-2. **Serialization:** Serializes the analog signals into time-domain sequences \( A_0, A_1, A_2, \dots, A_x \) and \( B_0, B_1, B_2, \dots, B_x \).
+2. **Serialization:** Serializes the analog signals into time-domain sequences \( A_0, A_1, A_2, ...., A_x \) and \( B_0, B_1, B_2, ...., B_x \).
 3. **Analog Multiplication:** Performs the multiplication of the serialized analog signals using an analog multiplier (op-amp or Gilbert cell).
 4. **Deserialization:** Converts the multiplied analog signal back into a parallel format.
 5. **Analog-to-Digital Conversion (ADC):** Converts the deserialized analog signal into a digital output.
@@ -30,7 +30,7 @@ The proposed circuit consists of the following key stages:
 
 ##### 3.2 Serialization
 - The analog signals are serialized into time-domain sequences using a multiplexer or shift register.
-- The serialized signals \( A_0, A_1, A_2, \dots, A_x \) and \( B_0, B_1, B_2, \dots, B_x \) are fed into the analog multiplier.
+- The serialized signals \( A_0, A_1, A_2, ....., A_x \) and \( B_0, B_1, B_2, .... , B_x \) are fed into the analog multiplier.
 
 ##### 3.3 Analog Multiplication
 - The multiplication is performed using either:
