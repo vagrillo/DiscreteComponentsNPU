@@ -2,6 +2,7 @@
 
 #### Abstract
 This study explores the design and implementation of a discrete circuit capable of performing floating-point multiplication using analog components such as operational amplifiers (op-amps) and Gilbert cells. The circuit is designed to handle the multiplication of two sequences of floating-point numbers, \( A_i \) and \( B_i \) (where \( i \) ranges from 0 to \( x \)), by converting digital inputs into analog signals, performing the multiplication in the analog domain, and then converting the result back into a digital format. The proposed design aims to achieve a throughput of 10 GHz, potentially enabling performance close to 10 Giga Floating-Point Operations Per Second (GFLOPs).
+Could be useful for matrix multiplies, or typical ML works.
 
 ---
 
